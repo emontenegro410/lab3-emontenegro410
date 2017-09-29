@@ -1,27 +1,54 @@
-# Lab 1
+# COMP 271 002 F17 Lab 3
 
+# Team project
 
+Work in teams of two but submit individually (see details below)
 
-### Discussion 1
+# Objectives
 
-Q.  What would be a really simple solution if n were not an argument, i.e., if it were always 17?
+An understanding of the following concepts and techniques:
 
-A.  A simple solution would be to make n an instant variable and have it printed out depending on the number given.
+- algorithmic complexity
+- runtime performance
+  - how to measure
+  - how it relates to algorithmic complexity
+- abstract data types (ADT)
+- array-based versus linked lists
+- getting started with iterators
+- automated unit testing using JUnit
+  - testing for exceptions
+  - test fixtures and assertions
+  
+# Instructions
 
+The key idea is to think about this lab like a physics experiment! 
+You will set it up and then take measurements.
 
-##
+1. Review the code.
+1. Fix the syntax errors (if any, though there probably aren't any).
+2. Run the code for various inputs to gain an understanding of what it does.
+3. Complete the items marked TODO in the code and get the tests to pass.
+2. Conduct the performance measurements: you will find the running times in the test report.
+4. Create a markdown document called Answers.md and answer the various questions embedded in the code.
 
-### Discussion 2: 
-Q. How could you have automatically tested your initial 
-solution from part 2?
+# Deliverables and submission
 
-We could create a constent variable for n value.
+Please submit the following deliverables:
 
-## 
-### Discussion 3: 
-Q. What changes between parts 2, 3, and 4, and what stays the same? Does it matter what list implementation you choose? If so, in what way(s)?
+- Shared GitHub Classroom lab3 repository where you worked on this project as a group 
+  (there should be commits from all group members)
+- Individual Sakai submission under "Lab 3":
+  - URL of shared GitHub team repository
+  - Brief description of your collaboration style and summary of your 
+    individual contributions to this team project
 
-A. The main code for all the parts stayed the same, we altered the structure but not the behavior. 
-For part 2 we had to prints the fizz buzz sequence up to n, one number per line, on the standard output but for part 3, we converted the command-line argument to a number and we used an array.
-For part 4 we refactored our solution in part 3 by creating a list. The main differance between part 2 and part 3 and 4 is that in part 2 only prints the solution vs part 3 and 4 that prints and stores the solution. 
-We believe that it doesnt matter what list implementation we choose because they all have the same purpose, but we choose to use an ArrayList because with this lab we are adding to the list.
+# Grading
+
+- 1 submission via GitHub
+- 1 tests passing and completion of items marked TODO
+- 1 performance testing for increasing problem sizes
+- 2 written part
+  - 1.5 responses to the questions above
+  - 0.5 grammar, style, formatting
+
+*5 points TOTAL*
